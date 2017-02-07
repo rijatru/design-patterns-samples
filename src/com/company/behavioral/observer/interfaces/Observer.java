@@ -1,4 +1,4 @@
-package com.bootleg.oob.observer.interfaces;
+package com.company.behavioral.observer.interfaces;
 
 public interface Observer {
 

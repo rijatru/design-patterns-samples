@@ -1,7 +1,7 @@
-package com.bootleg.oob.observer;
+package com.company.behavioral.observer;
 
-import com.bootleg.oob.observer.interfaces.Observer;
-import com.bootleg.oob.observer.interfaces.Subject;
+import com.company.behavioral.observer.interfaces.Observer;
+import com.company.behavioral.observer.interfaces.Subject;
 
 import java.util.ArrayList;
 
