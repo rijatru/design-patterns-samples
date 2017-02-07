@@ -21,14 +21,14 @@ public abstract class EntertainmentDevice {
         System.out.println("On " + deviceState);
     }
 
-    public void buttonSevenPRessed() {
+    public void buttonSevenPressed() {
 
         volumeLevel++;
 
         System.out.println("Volume at: " + volumeLevel);
     }
 
-    public void buttonEightPRessed() {
+    public void buttonEightPressed() {
 
         volumeLevel++;
 

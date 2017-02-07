@@ -39,7 +39,6 @@ public class PlayWithRemoteTest {
         // ------------------------
 
         Command volumeUpCommand = new TurnTvVolumeUp(newDevice);
-        ;
 
         onPressed = new DeviceButton(volumeUpCommand);
 

@@ -1,15 +1,8 @@
 package com.company.behavioral.Iterator;
 
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.Hashtable;
 import java.util.Iterator;
 
 public class DiscJockey {
-
-    SongsOfThe70s songsOfThe70s;
-    SongsOfThe80s songsOfThe80s;
-    SongsOfThe90s songsOfThe90s;
 
     SongIterator iter70sSongs;
     SongIterator iter80sSongs;
