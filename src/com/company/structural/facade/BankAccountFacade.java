@@ -23,7 +23,7 @@ public class BankAccountFacade {
         welcomeToBank = new WelcomeToBank();
     }
 
-    public int getAccounNumber() {
+    public int getAccountNumber() {
         return accounNumber;
     }
 
@@ -33,7 +33,7 @@ public class BankAccountFacade {
 
     public void withdrawCash(double cashToGet) {
 
-        if (accountNumberCheck.accountActive(getAccounNumber()) &&
+        if (accountNumberCheck.accountActive(getAccountNumber()) &&
                 securityCodeCheck.isCodeCorrect(getSecurityCode()) &&
                 fundsCheck.haveEnoughMoney(cashToGet)) {
 
@@ -47,7 +47,7 @@ public class BankAccountFacade {
 
     public void depositCash(double cashToDeposit) {
 
-        if (accountNumberCheck.accountActive(getAccounNumber()) &&
+        if (accountNumberCheck.accountActive(getAccountNumber()) &&
                 securityCodeCheck.isCodeCorrect(getSecurityCode())) {
 
             fundsCheck.makeDeposit(cashToDeposit);

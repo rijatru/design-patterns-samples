@@ -2,7 +2,7 @@ package com.company.structural.composite;
 
 public class SongListGenerator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         SongComponent industrialMusic = new SongGroup("Industrial", "Industrial desctiption");
         SongComponent heavyMetalMusic = new SongGroup("Heavy Metal", "Heavy description");
@@ -29,5 +29,21 @@ public class SongListGenerator {
         DiscJockey crazyLarry = new DiscJockey(everySong);
 
         crazyLarry.getSongList();
+
+        int fib = fib(8);
+
+        System.out.println("Fib: " + fib);
+    }
+
+    private static int fib(int index) {
+
+        if (index < 3) {
+
+            return 1;
+
+        } else {
+
+            return fib(index - 1) + fib(index - 2);
+        }
     }
 }
